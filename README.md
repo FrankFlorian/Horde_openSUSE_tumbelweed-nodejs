@@ -43,12 +43,4 @@ $conf['sql']['logqueries'] = no checkmark
     
 Save the settings.
 To finish the database setup run: 
-docker exec -it hordeOnTumbelweed_php_1 /srv/git/horde/base/bin/horde-db-migrate-- 
-Florian Frank
-Linux Consultant & Trainer
-Mobil: +49-151/42516532
-Mail: frank@b1-systems.de
-
-B1 Systems GmbH
-Osterfeldstraße 7 / 85088 Vohburg / http://www.b1-systems.de
-GF: Ralph Dehner / Unternehmenssitz: Vohburg / AG: Ingolstadt,HRB 3537 
+docker exec -it hordeOnTumbelweed_php_1 /srv/git/horde/base/bin/horde-db-migrate
