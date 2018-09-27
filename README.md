@@ -7,7 +7,9 @@ https://build.opensuse.org/package/show/isv:B1-Systems:Horde5:containers:openSUS
 This container is designed for interactive development and testing of libraries both from upstream and from custom projects.
 
 After cloning this repository you can run the following command:
+
 docker-compose -f docker-compose.yml up
+
 This should take a while.
 
 Now you should be able to access the container with:
